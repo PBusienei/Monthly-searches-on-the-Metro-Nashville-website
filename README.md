@@ -25,20 +25,20 @@
 
 - To sort the data from newest to oldest, you’ll need Month as a number. Create a lookup table for Month in columns M and N starting in row 10 with the headers and ending in row 22:  
 
- | Month Name   | Month Num  |
- ---------      ---------
-| January      | 1 |
-| February     | 2 |
-| March        | 3 |
-| April        | 4 |
-| May          | 5 |
-| June         | 6 |
-| July         | 7 |
-| August       | 8 |
-| September    | 9 |
-| October      | 10 |
-| November     | 11 |
-| December     | 12 |
+  Month Name   |  Month Num  
+   -------     | :---------:  
+  January      |   1   
+  February     |   2   
+  March        |   3   
+  April        |   4   
+  May          |   5   
+  June         |   6   
+  July         |   7   
+  August       |   8   
+  September    |   9   
+  October      |   10   
+  November     |   11   
+  December     |   12   
 
 
 - Create a header at the top of column F called “Month Num”. Use a `VLOOKUP` to match the month name in the Month column (A) to the lookup table in `M11`:`N22` in order to populate the “Month Num” in column K.
