@@ -1,4 +1,4 @@
-### Excel Project 1 – Monthly searches on the Metro Nashville website
+### Monthly searches on the Metro Nashville website
 
 - Find the dataset of Top 500 Monthly Searches on https://data.nashville.gov and download the CSV for Excel version of the data. Open the file in Excel and examine it. Be sure to choose comma delimited when prompted. Do not worry about any datatypes for now.
 
