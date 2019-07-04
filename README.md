@@ -6,7 +6,7 @@
 
 - Enter the text “max queries:” in cell `M3` and enter the maximum query count in `N3` using a formula.
 
-- Sort the data by `column C` (Query Count).  
+- Sort the data by column C (Query Count).  
     - When did the maximum query count occur?
     - What was the Query Text?
     - What do you notice about the top 5 searches?
