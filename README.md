@@ -1,6 +1,6 @@
-### Monthly searches on the Metro Nashville website
+### Nashville.gov Top 500 Monthly searches
 
-- Find the dataset of Top 500 Monthly Searches on https://data.nashville.gov and download the CSV for Excel version of the data. Open the file in Excel and examine it. Be sure to choose comma delimited when prompted. Do not worry about any datatypes for now.
+- Found the dataset of Top 500 Monthly Searches on https://data.nashville.gov and downloaded the CSV for Excel version of the data. Opened the file in Excel and examine it. 
 
 - How many rows and columns are in the dataset? Enter your answer as text in cell `M2`.
 
@@ -21,9 +21,8 @@
 - Enter “Average” in cell `P6`. Below it, use `AVERAGEIF()` to find the average number of times that “maps” was searched (in the months that it appeared in our dataset).
 - Finally, enter “Max” in cell `Q6`, and below it use a formula to find the maximum number of times that “maps” was searched in any month.
 
-- Create a formula in `E2` to rank the values in the query count column (C) in descending order. Be sure to use an **absolute reference** for the range of values over which you want to apply the ranking. 
-
-- To sort the data from newest to oldest, you’ll need to get `Month` as a number. Create a lookup table for Month in columns M and N starting in row 10 with the headers and ending in row 22:  
+- Created a formula in `E2` to rank the values in the query count column (C) in descending order. Be sure to use an **absolute reference** for the range of values over which you want to apply the ranking. 
+by getting `Month` as a number. Created a lookup table for Month in columns M and N starting in row 10 with the headers and ending in row 22:  
 
   Month Name   |  Month Num  
    -------     | :---------:  
@@ -41,16 +40,16 @@
   December     |   12   
 
 
-- Create a header at the top of column F called “Month Num”. Use a `VLOOKUP` to match the month name in the Month column (A) to the lookup table in `M11`:`N22` in order to populate the “Month Num” in column K.
+- Created a header at the top of column F called “Month Num”. Use a `VLOOKUP` to match the month name in the Month column (A) to the lookup table in `M11`:`N22` in order to populate the “Month Num” in column K.
 
-- Select columns A through F and create a custom sort (Home --> Sort & Filter --> Custom Sort). 
-- Sort by the largest to smallest Year as your first level, Month Num largest to smallest as your second value, and Query Text A-Z as your third level. Scroll through to find how many times “fairgrounds” was searched in July 2018.
+- Selected columns A through F and created a custom sort (Home --> Sort & Filter --> Custom Sort). 
+- Sorted by the largest to smallest Year as first level, Month Num largest to smallest as second value, and Query Text A-Z as third level. Find how many times “fairgrounds” was searched in July 2018.
 
-- Find which month in 2016 had the most searches for “fire”. Try to use a Custom Sort to save yourself from too much scrolling up and down.
+- Find which month in 2016 had the most searches for “fire”. Used a Custom Sort(to save time of scrolling up and down).
 
-- Enter text (“all query counts over 100:” in `M7` and use `COUNTIF()` in `N7` to count the number of times a query was run more than 100 times in a given month.
+- Entered text (“all query counts over 100:” in `M7` and use `COUNTIF()` in `N7` to count the number of times a query was run more than 100 times in a given month.
 
-- Enter text (“query for codes over 100 times:”) in `M8` and use `COUNTIFS()` to find the number of times users searched for ‘codes’ more than 100 times in a given month.
+- Entered text (“query for codes over 100 times:”) in `M8` and use `COUNTIFS()` to find the number of times users searched for ‘codes’ more than 100 times in a given month.
 
-- Create a new column (G) with a header of “Volume”. Populate this column with one of 3 categories: ‘Low’, ‘Medium’, ‘High’. Low volume searches happened less than 50 times in a month, medium volume searches happened between 50 and 100 times in a month (inclusive), and high volume searches were conducted more than 100 times in a month.
+- Created a new column (G) with a header of “Volume”. Populate this column with one of 3 categories: ‘Low’, ‘Medium’, ‘High’. Low volume searches happened less than 50 times in a month, medium volume searches happened between 50 and 100 times in a month (inclusive), and high volume searches were conducted more than 100 times in a month.
 
